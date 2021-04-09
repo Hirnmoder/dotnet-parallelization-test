@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>PerformanceTests.TestRunner</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Calculations\Calculations.csproj" />
+    <ProjectReference Include="..\TestInterfaces\TestInterfaces.csproj" />
+  </ItemGroup>
+
+</Project>
